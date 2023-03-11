@@ -24,12 +24,17 @@
 
 		<section id="about">
 			<h2>About Me</h2>
+			<img
+					src="photo.jpeg"
+					width="200"
+					height="250"
+					alt="A picture about Jingjing"
+			/>
 			<p>
-				This section should contain a brief introduction. Note that this
-				introduction should highlight your professional experience. ❏ You can
-				include your photo in this section (as we did in the 01-hello
-				exercises).
+					Hello! My name is Jingjing. I'm an Undergrad student.I’m excited for
+					the opportunity to learning new Web information!
 			</p>
+			
 		</section>
 
 		<section id="previous-work">
@@ -65,30 +70,39 @@
 		<section id="contact">
 			<h2>Contact</h2>
 			<form>
+				<div class="inputContext">
 				<label for="name">Name:</label>
 				<input
 					type="text"
 					id="name"
 					name="name"
+					class="inputSpace"
 				/>
-
+				</div>
+				<div class="inputContext">
 				<label for="email">Email:</label>
 				<input
 					type="email"
 					id="email"
 					name="email"
+					class="inputSpace"
 				/>
-
+			</div>
+			<div class="inputContext">
 				<label for="message">Message:</label>
 				<textarea
 					id="message"
 					name="message"
+					class="inputSpace"
 				></textarea>
-
+				</div>
+				<div class="submit-Button">
 				<input
 					type="submit"
 					value="Submit"
+					class="submitButton"
 				/>
+				</div>
 			</form>
 		</section>
 	</body>

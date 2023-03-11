@@ -1,3 +1,61 @@
 body{
     background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    
+}
+nav ul{
+    background-color:white;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+nav ul li{
+    display: inline;
+}
+
+#about{
+    background-color: aqua;
+}
+
+#contact{
+    
+
+}
+
+form {
+	margin-top: 10px;
+	border-color: lightgray;
+	border-style: solid;
+	width: 300px;
+	padding: 10px;
+    display: inline-block;
+}
+
+.inputContext{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+}
+
+.inputSpace{
+    width: 200px;
+}
+.submit-Button{
+    height: 50px;
+}
+.submitButton{
+    height: 50px;
+}
+.submitButton:hover {
+	background-color: blanchedalmond;
 }
