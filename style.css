@@ -1,3 +1,5 @@
+
+
 body{
     background-color: blanchedalmond;
     margin: 0;
@@ -23,9 +25,12 @@ nav ul li{
 }
 
 #about{
-    background-color: aqua;
+   
 }
 
+#projects ul{
+    padding: 0;
+}
 #contact{
     
 
