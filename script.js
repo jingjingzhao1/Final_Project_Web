@@ -1,4 +1,4 @@
-console.log("hello!");
+
 var menu = document.querySelector("#menu-icon");
 var navlist = document.querySelector(".navlist");
 
