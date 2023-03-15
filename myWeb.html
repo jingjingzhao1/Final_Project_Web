@@ -11,21 +11,32 @@
 			rel="stylesheet"
 			href="style.css"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+		/>
 	</head>
 	<body>
-		<nav>
-			<ul>
+		<header>
+			<div>
+				<i class="bx bx-happy-beaming"></i>
+			</div>
+			<ul class="navlist">
 				<li><a href="#about">About</a></li>
-				<li><a href="#previous-work">Previous Work</a></li>
+				<li><a href="#previous-work">Experiences</a></li>
 				<li><a href="#projects">Projects</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
-		</nav>
+			<div
+				class="bx bx-menu"
+				id="menu-icon"
+			></div>
+		</header>
 
-		<section id="about">
+		<section id="introduce">
 			<h2>About Me</h2>
 			<img
-				src="photo.jpeg"
+				src="images/photo.jpeg"
 				width="200"
 				height="250"
 				alt="A picture about Jingjing"
@@ -59,7 +70,9 @@
 		<section id="projects">
 			<h2>Projects:</h2>
 			<ul>
-				<li><a href="https://github.com/jingjingzhao1/food_diary">Diary Food</a></li>
+				<li>
+					<a href="https://github.com/jingjingzhao1/food_diary">Diary Food</a>
+				</li>
 				<p>
 					Developed a web application for food lovers that allows users to
 					search for recipes by ingredient and browse by category.
@@ -68,11 +81,17 @@
 					Implemented a meal page feature that enables users to add ingredients
 					to a virtual grocery cart for easy meal planning and shopping.
 				</p>
-				<li><a href="https://github.com/jingjingzhao1/CS445-545-ML-Project-1">Cifar-10 Image Classification</a></li>
+				<li>
+					<a href="https://github.com/jingjingzhao1/CS445-545-ML-Project-1"
+						>Cifar-10 Image Classification</a
+					>
+				</li>
 				<p>
-					CIFAR-10 is an established computer-vision dataset used for object recognition.For this project we compared the results of processing the Cifar-10 dataset on several differing networks. With those being a CNN, MLP, and Kmeans algorithm.
+					CIFAR-10 is an established computer-vision dataset used for object
+					recognition.For this project we compared the results of processing the
+					Cifar-10 dataset on several differing networks. With those being a
+					CNN, MLP, and Kmeans algorithm.
 				</p>
-				
 			</ul>
 		</section>
 
