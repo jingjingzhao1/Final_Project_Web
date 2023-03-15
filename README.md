@@ -1,3 +1,13 @@
 # Final_Project_Web
-Create a project Readme.md file with information about the project, how to run
-the code, any outside sources used, and where the site is deploy
+This is my person website to show my skills, project, and experience.
+
+Technonlogies:
+HTML, CSS, JavaScript
+
+How to run:
+1.Clone the repository to your local machine
+2.To execute this project open myWeb.html file in your web browser.
+
+Deployed Site
+The site is deployed on GitHub Pages at 
+
