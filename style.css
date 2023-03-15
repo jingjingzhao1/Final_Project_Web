@@ -98,17 +98,39 @@ header{
     gap: 2rem;
     text-align: left;
 }
-#projects ul{
-    padding: 0;
+
+#projects {
+    font-size: 25px;
+    padding: 160px 15% 120px;
 
 }
+.projects-context{
+    display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+	align-items: center;
+    gap: 2.5rem;
+}
 
+.project-display{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.project-display img{
+    border-radius: 8px;
+    width: 100%;
+    display: block;
+    
+}
+.project-display:hover img{
+    transform: scale(1.1);
+}
 
 form {
 	margin-top: 10px;
-	border-color: lightgray;
+	border-color: var(--orange);
 	border-style: solid;
-	width: 300px;
+	width: 500px;
 	padding: 10px;
     display: inline-block;
 }
@@ -123,12 +145,12 @@ form {
 .inputSpace{
     width: 200px;
 }
-.submit-Button{
-    height: 50px;
-}
+
 .submitButton{
     height: 50px;
+    width: 200px;
+    font-size: 20px;
 }
 .submitButton:hover {
-	background-color: blanchedalmond;
+	background-color: var(--orange);
 }
