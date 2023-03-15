@@ -9,5 +9,5 @@ How to run:
 2.To execute this project open myWeb.html file in your web browser.
 
 Deployed Site
-The site is deployed on GitHub Pages at 
+The site is deployed on GitHub Pages at https://jingjingzhao1.github.io/Final_Project_Web/
 
