@@ -41,11 +41,15 @@ a {
 
 header{
     position: fixed;
+    top:0;
+    left: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     font-size: 35px;
     padding: 10px;
+    align-items: center;
+    z-index: 1000;
 }
 
 .navlist{
@@ -61,25 +65,31 @@ header{
 }
 
 #menu-icon{
-
     margin-right: 15px;
     display: none;
 }
 
-.introduce{
-    position: relative;
-    background-color: #000080;
-    padding: 15px;
-    
+#about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    align-items: center;
+    margin-top: 85px;
+    padding:  0 200px;
+    gap: 5rem;
+    font-size: 25px;
+}
+
+.img_about img{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 50%;
 }
 #projects ul{
     padding: 0;
 
 }
-#contact{
-    
 
-}
 
 form {
 	margin-top: 10px;
